@@ -1,0 +1,175 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.order-app {
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+    max-width: 700px;
+    min-height: 550px;
+    background-color: whitesmoke;
+    
+}
+
+.order-app-header {
+    background-image: url("/images/order-app-header.jpg");
+    background-size: auto;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+.menu {
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.menu-item {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.menu-item-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu-item-ingredients {
+    font-size: 14px;
+}
+
+.menu-item-price {
+    font-weight: 600;
+}
+
+.add-to-menu-btn {
+    font-size: 14px;
+    color: white;
+    background-color: #54CC54;
+    border: none;
+    box-shadow: 0px 1px 5px lightgrey;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.add-to-menu-btn:hover, .add-to-menu-btn:focus {
+    box-shadow: 0px 1px 5px grey; 
+}
+
+.add-to-menu-btn:active {
+    border: none;
+    background-color: #54CC54;
+}
+
+.order-title {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.order-item-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.order-item-price {
+    text-align: right;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.remove-item {
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+.total-price {
+    border-top: 1px solid lightgray;
+    padding-top: 20px;
+}
+
+.order-button {
+    font-size: 16px;
+    color: white;
+    background-color: #54CC54;
+    border: none;
+    box-shadow: 0px 1px 5px lightgrey;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.order-button:hover, .order-button:focus {
+    box-shadow: 0px 1px 5px grey; 
+}
+
+.order-button:active {
+    border: none;
+    background-color: #54CC54;
+}
+
+.modal {
+    display: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px lightgrey;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 370px;
+    height: 430px;
+}
+
+.modal-inner {
+    padding: 20px 10px;
+}
+
+.modal-inner form label {
+    float: left;
+    margin: 10px;
+}
+
+.modal-inner form input {
+    padding: 10px;
+    box-shadow: 0px 1px 5px lightgrey;
+    border: none;
+    border-radius: 10px;
+}
+
+.send-order-button {
+    font-size: 16px;
+    color: white;
+    background-color: #54CC54;
+    border: none;
+    box-shadow: 0px 1px 5px lightgrey;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.send-order-button:hover, .send-order-button:focus {
+    box-shadow: 0px 1px 5px grey; 
+}
+
+.send-order-button:active {
+    border: none;
+    background-color: #54CC54;
+}
