@@ -14,7 +14,7 @@ body {
 }
 
 .order-app-header {
-    background-image: url("/images/order-app-header.jpg");
+    background-image: url("images/order-app-header.jpg");
     background-size: auto;
     text-align: center;
     color: white;
